@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f7fe;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.title{
+    font-size: 4rem;
+}
+
+.title-bar{
+    width: 80px;
+    height: 4px;
+    margin-top: 7px;
+    background-color: #56a9db;
+}
+
+.data-person{
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.img-person{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: #56a9db 11px -2px;
+    object-fit: cover;
+}
+
+.name{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+.job-name{
+    font-size: 1.4rem;
+    color: hsl(205, 78%, 60%);
+    margin-top: 3px;
+}
+
+.info-person{
+    width: 500px;
+    height: 90px;
+    margin-top: 5px;
+    font-size: 1.7rem;
+    text-align: justify;
+    color: #93afbe;
+}
+
+.button-left{
+    margin-right: 20px;
+}
+
+.btn{
+    border: none;
+    background-color: white;
+    font-size: 3rem;
+    color: hsl(205, 90%, 76%);
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.button-surprise-me{
+    margin-top: 0.5rem;
+    background: hsl(205, 100%, 96%);
+    color: hsl(205, 78%, 60%);
+    padding: 0.25rem 0.5rem;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    transition: all 0.3s linear;
+    border-color: hsl(205, 78%, 60%);
+    cursor: pointer;
+}
